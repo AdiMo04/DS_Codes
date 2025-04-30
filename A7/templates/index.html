@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Calculator</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+
+    <!-- HTML form that POSTs input values to Flask -->
+    <form method="post">
+        A: <input name="a" type="number" required><br><br>
+        B: <input name="b" type="number" required><br><br>
+
+        <!-- Dropdown to choose operation -->
+        <select name="op">
+            <option value="add">Add</option>
+            <option value="sub">Subtract</option>
+            <option value="mul">Multiply</option>
+            <option value="div">Divide</option>
+        </select><br><br>
+
+        <!-- Submit form -->
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
